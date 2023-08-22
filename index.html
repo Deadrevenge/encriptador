@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo_alura" src="Vector.png" alt="AluraLogo">
+        <p>&#9888; El encriptador solo acepta letras minúsculas y sin acentos.</p>
+    </header>
+    <main>
+        <section class="textboxes">
+            <textarea class="textbox" id="inputText" placeholder="Ingresa tu texto a encriptar/desencriptar"></textarea>
+            <textarea class="textbox" id="displayText"></textarea>
+        </section>
+        <section class="buttons">
+            <button class="button_encript" onclick="buttonEncript()">Encriptar</button>
+            <button class="button_decript" onclick="buttonDencript()">Desencriptar</button>
+            <button class="button_copy" onclick="copy()">Copiar</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
